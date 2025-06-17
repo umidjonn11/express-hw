@@ -26,3 +26,28 @@ describe('POST /sum', () => {
     expect(res.body).toHaveProperty('error');
   });
 });
+
+
+
+// test("should return hello world", () => {
+//   fetch("http://localhost:3030/hello")
+//     .then((data) => data.text())
+//     .then((data) => {
+//       expect(data).toBe("Hello, World!");
+//     });
+// });
+
+// test("should return sum", () => {
+//   fetch("http://localhost:3030/sum", {
+//     method: "POST",
+//     headers: { "content-type": "application/json" },
+//     body: JSON.stringify({
+//       a: 1,
+//       b: 90,
+//     }),
+//   })
+//     .then((data) => data.json())
+//     .then((res) => {
+//       expect(res).toBe(91);
+//     });
+// });
