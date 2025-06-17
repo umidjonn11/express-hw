@@ -28,3 +28,5 @@ app.post('/sum', (req, res) => {
 app.listen(port, () => {
   console.log(`Server http://localhost:${port} da ishlayapti`);
 });
+
+module.exports = app
